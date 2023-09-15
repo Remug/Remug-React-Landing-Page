@@ -1,17 +1,13 @@
 import React from "react";
 
-const Jumbotron = () => {
+export default function Jumbotron() {
     return (
-            <div className="card border border-0">
-                 <div className="card p-2 col-12 bg-grey">
-                    <div className="card-body">
-                    <h1 className="card-title">A warm welcome</h1>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, eos molestias. Temporibus consectetur magnam neque est fuga laudantium voluptatem magni labore quia a amet modi, dicta voluptas odit atque repudiandae.</p>
-                    <a href="#" className="btn btn-primary">Call an action!</a>
-                    </div>
-                </div>
-            </div>
-    )
+        <div className="jumbotron mt-4 mx-5 px-5 py-5 rounded bg-dark-subtle">
+            <h1 className="display-4 fw-bold">One Piece Yonkou</h1>
+            <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla nisl aliquet egestas porta. Cras euismod ante vel feugiat vehicula. Maecenas sem lectus, tempus nec venenatis id, mollis a purus. Morbi posuere eleifend libero, nec mollis nunc congue eu. Nam luctus orci nunc, ut dapibus nibh pharetra sed. Ut nec vehicula metus.</p>
+            <p className="lead">
+                <a className="btn btn-danger btn-lg" href="#" role="button">Call to action!</a>
+            </p>
+        </div>
+    );
 };
-
-export default Jumbotron;

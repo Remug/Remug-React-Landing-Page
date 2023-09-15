@@ -1,4 +1,9 @@
-
+.Fimag {
+    width: auto; /* Ajusta el ancho de la imagen al 100% de la tarjeta */
+    height: 100%; /* Permite que la altura se ajuste automáticamente para mantener la proporción de la imagen */
+    object-fit: cover; /* Hace que la imagen cubra todo el espacio de la tarjeta sin distorsionarse */
+    margin-left: 14%;
+  }
 /* 
 
     You can write your own styles here...
